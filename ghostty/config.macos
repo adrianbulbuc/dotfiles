@@ -1,0 +1,22 @@
+# --- Theme & Visuals ---
+theme = "Catppuccin Mocha"
+font-size = 14
+background-opacity = 0.95
+
+# --- Window Spacing & Style ---                                                                                   
+window-padding-x = 10
+window-padding-y = 10
+window-padding-balance = true
+
+Cursor & Typing ---
+cursor-style = block
+cursor-style-blink = true
+mouse-hide-while-typing = true
+
+# --- Clipboard & History ---
+copy-on-select = true
+scrollback-limit = 50000
+
+# --- macOS Meta Key ---
+macos-option-as-alt = true
+
