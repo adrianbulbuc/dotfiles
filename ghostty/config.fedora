@@ -1,19 +1,36 @@
-# --- Theme & Visuals ---
-theme = "Catppuccin Mocha"
-font-size = 14
-background-opacity = 0.95
+# ==============================================================================
+# FONT & TYPOGRAPHY
+# ==============================================================================
+font-family = "JetBrains Mono"
+font-size = 13.5
+font-feature = -calt, -liga
 
-# --- Window Spacing & Style ---                                                                                   
-window-padding-x = 10
+# ==============================================================================
+# THEME & APPEARANCE
+# ==============================================================================
+theme = "Dark+"
+background = #1f1f1f
+foreground = #cccccc
+
+window-padding-x = 12
 window-padding-y = 10
 window-padding-balance = true
+window-decoration = auto
 
-# --- Cursor & Typing ---
+# ==============================================================================
+# CURSOR & MOUSE
+# ==============================================================================
 cursor-style = block
-cursor-style-blink = true
+cursor-style-blink = false
 mouse-hide-while-typing = true
+copy-on-select = clipboard
 
-# --- Clipboard & History ---
-copy-on-select = true
+# ==============================================================================
+# TERMINAL EMULATION & ENVIRONMENT
+# ==============================================================================
+# Uses standard xterm-256color to prevent terminfo errors across local tools & SSH
+term = xterm-256color
 scrollback-limit = 50000
-
+shell-integration = detect
+shell-integration-features = cursor,sudo,title
+confirm-close-surface = false
