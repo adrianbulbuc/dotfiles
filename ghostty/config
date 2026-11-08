@@ -1,0 +1,13 @@
+#Font
+font-family = "JetBrains Mono"
+font-size = 14
+
+# Theme & Window Padding
+theme = "Dark+"
+window-padding-x = 12
+window-padding-y = 10
+window-padding-balance = true
+
+# Mouse & Window Lifecycle
+mouse-hide-while-typing = true
+copy-on-select = clipboard
